@@ -7,13 +7,9 @@ export default function Index() {
   const router = useRouter();
   return (
     <View style={styles.container}>
-      <TodoCard title="Apprendre React" completed />
-      <TodoCard title="Apprendre React Native" />
-      <TodoCard title="Apprendre l'AIDD" />
-      <TodoCard title="Apprendre l'Anglais" completed />
-      <TodoCard title="Apprendre le Japonais" />
+      <TodoCard title="Création de todo" />
       <Button
-        title="Créer une tâche"
+        title="Liste des tâches"
         onPress={() => router.navigate("/CreateToDo")}
       />
     </View>
