@@ -8,10 +8,7 @@ export default function Index() {
   return (
     <View style={styles.container}>
       <TodoCard title="Création de todo" />
-      <Button
-        title="Liste des tâches"
-        onPress={() => router.navigate("/CreateToDo")}
-      />
+      <Button title="Liste des tâches" onPress={() => router.navigate("/")} />
     </View>
   );
 }
